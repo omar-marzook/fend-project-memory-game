@@ -19,3 +19,17 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 # fend-project-memory-game
+
+## Description
+A Responsive memory game contains 16 cards (2 * 8 diff types).
+
+## A Demo Version To Try It
+[Demo](http://matching-game-omar.bitballoon.com/)
+
+## How to Play & Rules
+* The player must select 2 cards at a time.
+* Mismatched cards will be turned over, and the user must select a new pair of cards.
+* Once all 8 pairs are matched, the user is prompted to play again.
+* The player is given a score of 1 star to 3 stars depending on how many moves are made.
+* A Timer starts when the user makes his first selection.
+* The Game displays the current number of moves a player has made.

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Matching Game</title>
-    <meta name="description" content="">
+    <meta name="description" content="Matching Game">
+    <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet" href="css/app.css">
@@ -27,7 +28,7 @@
             </ul>
 
             <span class="moves">0</span> Moves
-            
+
             <span class="timer">0</span> Second(s)
 
             <div class="restart">
@@ -40,9 +41,6 @@
         </ul>
     </div>
 
-    <!-- Trigger/Open The Modal -->
-    <button id="myBtn" style="display: none;"></button>
-
     <!-- The Modal -->
     <div id="myModal" class="modal">
 
@@ -50,10 +48,11 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <p id="win"></p>
+            <div>Play Again<button id="myBtn" class="fa fa-refresh"></button></div>
         </div>
 
     </div>
-    
+
     <script src="js/model-box.js"></script>
     <script src="js/app.js"></script>
 </body>
