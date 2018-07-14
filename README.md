@@ -24,7 +24,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 A Responsive memory game contains 16 cards (2 * 8 diff types).
 
 ## A Demo Version To Try It
-[Demo](http://matching-game-omar.bitballoon.com/)
+[Demo](https://omar-marzook.github.io/fend-project-memory-game/)
 
 ## How to Play & Rules
 * The player must select 2 cards at a time.
